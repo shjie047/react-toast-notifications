@@ -22,6 +22,7 @@ export const ToastContainer = ({
   placement,
 }: ToastContainerProps) => (
   <div
+    className="ToastContainer"
     css={{
       boxSizing: 'border-box',
       maxHeight: '100%',
